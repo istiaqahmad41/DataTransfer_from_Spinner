@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="#D1CCCC"
+    tools:context=".MainActivity">
+
+     <Spinner
+         android:id="@+id/product_sp"
+         android:background="@color/white"
+         android:layout_width="match_parent"
+         android:layout_marginTop="20dp"
+         android:layout_height="100dp">
+     </Spinner>
+
+    <Spinner
+        android:id="@+id/price_sp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp">
+    </Spinner>
+    <Spinner
+        android:id="@+id/quant_sp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp">
+    </Spinner>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="next"
+        android:textSize="35dp"
+        android:backgroundTint="@color/black"
+        android:textAlignment="center">
+
+    </Button>
+</LinearLayout>
